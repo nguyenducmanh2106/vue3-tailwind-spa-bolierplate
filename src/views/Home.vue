@@ -21,3 +21,8 @@
         <p class="mt-24 w-100 text-center">Contributed by <a href="https://rakibul.dev" class="text-green-600">@Md. Rakibul Islam</a></p>
     </div>
 </template>
+<script>
+export default {
+  name: "Home"
+};
+</script>
