@@ -12,12 +12,7 @@ const routes = [
     path: "/about",
     name: "About",
     component: () => import("../views/About.vue"),
-  },
-  // {
-  //   path: "/validate-form",
-  //   name: "ValidateForm",
-  //   component: () => import("../views/ValidateForm.vue"),
-  // },
+  }
 ];
 
 const router = createRouter({

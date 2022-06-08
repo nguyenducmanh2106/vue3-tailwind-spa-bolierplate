@@ -3,7 +3,6 @@
         <nav>
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/about">About</RouterLink>
-            <!-- <RouterLink to="/validate-form">Validate Form</RouterLink> -->
         </nav>
     </div>
 </template>
