@@ -24,21 +24,29 @@
         </div>
       </div>
     </div>
-    <Footer />
+    <Footer :title="titleFooter" />
   </div>
 </template>
 
 <script>
 import Footer from "./Footer";
 import Header from "./Header";
+import { ref } from "vue"
 export default {
   name: "Layout",
-  props: {
-    msg: String,
-  },
+  // props: {
+  //   msg: String,
+  // },
   components: {
     Header,
     Footer
+  },
+  setup() {
+    const titleFooter = ref(`<p class="mt-24 w-100 text-center">Contributed by <a href="https://rakibul.dev" class="text-green-600">@Md.
+          Rakibul Islam</a></p>`)
+    return {
+      titleFooter
+    }
   }
 };
 </script>
